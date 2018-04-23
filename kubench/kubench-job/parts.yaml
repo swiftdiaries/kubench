@@ -1,0 +1,34 @@
+{
+   "name": "kubench-job",
+   "apiVersion": "0.0.1",
+   "kind": "ksonnet.io/parts",
+   "description": "Prototypes for running Kubeflow benchmark jobs.\n",
+   "author": "Cisco Systems, Inc.",
+   "contributors": [
+      {
+         "name": "Xinyuan Huang",
+         "email": "xinyuahu@cisco.com"
+      }
+   ],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/CiscoAI/kubench"
+   },
+   "bugs": {
+      "url": "https://github.com/CiscoAI/kubench/issues"
+   },
+   "keywords": [
+      "kubeflow",
+      "benchmark"
+   ],
+   "quickStart": {
+      "prototype": "io.ksonnet.pkg.kubench-job",
+      "componentName": "kubench-job",
+      "flags": {
+         "name": "kubench-job",
+         "namespace": "default"
+      },
+      "comment": "Run Kubench Job"
+   },
+   "license": "Apache 2.0"
+}
